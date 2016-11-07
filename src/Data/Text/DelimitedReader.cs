@@ -307,7 +307,7 @@ namespace MathNet.Numerics.Data.Text
         /// strip off quotes (TODO: can we replace this with trimming?)
         /// </summary>
         static string StripOffQuotes(this string obj)
-        {
+        {  
             return obj.Replace("'", string.Empty).Replace("\"", string.Empty);
         }
     }
